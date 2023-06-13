@@ -10,7 +10,7 @@ pipeline {
         stage ("GetCode") {
             steps{
                 script {
-                    tools.PrintMes("test tools printmes.")
+                    tools.PrintMes("test tools printmes1.")
                 }
             }
         }
